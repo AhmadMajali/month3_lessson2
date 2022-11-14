@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    tools:context=".fragmentOne">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:id="@+id/budaOne"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:src="@drawable/buda"
+        android:layout_gravity="top|left"
+        />
+    <ImageView
+        android:id="@+id/budaTwo"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:src="@drawable/buda"
+        android:layout_gravity="top|right"
+        />
+    <TextView
+        android:id="@+id/textOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="budaOne"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="25dp"
+        />
+    <TextView
+        android:id="@+id/textTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="budaTwo"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="25dp"
+        />
+</FrameLayout>
